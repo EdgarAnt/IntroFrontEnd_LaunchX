@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="esp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pasteleria pastelitos</title>
+</head>
+<body>
+        <h1 id="titulos"> Pedidos  </h1>
+        <!-- Formulario -->
+        <form action="pedidos.html">
+          <!-- Datos cliente-->
+          <label for="  ">Nombre</label>
+          <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+          <br>
+          <label for="Telefono">Teléfono</label>
+          <input type="text" name="telefono" id="telefono" placeholder="Teléfono">
+          <br>
+          <label for="Email">Email</label>
+          <input type="email" name="email" id="email" placeholder="Email">
+          <br>
+          <label for="Descripcion">Descripción general del pastel</label>
+          <textarea name="descripcion" id="descripcion" cols="40" rows="10"></textarea>
+          <br>
+          <!-- Tipo de sabor-->
+          <p>Seleccione los sabores</p>
+            <label for="Cheescake">Cheescake</label>
+            <input type="radio" name="Cheescake" id="Cheescake" value="Cheescake">
+            <label for="Tiramisu">Tiramisu</label>
+            <input type="radio" name="Tiramisu" id="Tiramisu" value="Tiramisu">
+            <label for="tres leches">tres leches</label>
+            <input type="radio" name="tres leches" id="tres leches" value="tres leches">
+            <label for="Tarta de santiago">Tarta de santiago</label>
+            <input type="radio" name="Tarta de santiago" id="Tarta de santiago" value="Tarta de santiago">
+
+          <br>
+          <!-- Tipo de adorno-->
+          <p>Seleccione los adornos</p>
+            <label for="Lunetas">Lunetas</label>
+            <input type="radio" name="Lunetas" id="Lunetas" value="Lunetas">
+            <label for="Chocolate">Chocolate</label>
+            <input type="radio" name="Chocolate" id="Chocolate" value="Chocolate">
+            <label for="Fresas">Fresas</label>
+            <input type="radio" name="Fresas" id="Fresas" value="Fresas">
+            <label for="Frutas">Frutas</label>
+            <input type="radio" name="Frutas" id="Frutas" value="Frutas">
+          <br>
+          <!-- Tipo de entrega-->
+          <p>Entrega a domicilio o en sucursal</p>
+          <label for="Sabores">Domicilio</label>
+          <input type="radio" name="domicilio" id="domicilio" value="domicilio">
+          <br>
+          <label for="Sabores">Sucursal</label>
+          <input type="radio" name="sucursal" id="sucursal" value="sucursal">
+          <br>
+          <!-- Botones-->
+          <input type="reset">
+          <input type="submit">
+
+        </form>
+
+</body>
+</html> 
